@@ -1,0 +1,13 @@
+@layer components {
+  .loading-screen {
+    @apply h-screen flex flex-col items-center justify-center bg-gray-50 gap-5;
+  }
+
+  .spinner {
+    @apply w-12 h-12 border-4 border-gray-200 border-t-primary-500 rounded-full animate-spin;
+  }
+
+  .loading-screen p {
+    @apply text-gray-600 text-sm;
+  }
+}
